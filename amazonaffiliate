@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Partners - Deine Empfehlungen</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #232f3e; color: white; padding: 20px; text-align: center; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .product { display: flex; align-items: center; border-bottom: 1px solid #ddd; padding: 10px; }
+        .product img { max-width: 100px; margin-right: 20px; }
+        .product a { text-decoration: none; color: #0073e6; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amazon Partners - Top Produkte</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/100" alt="Produktbild">
+            <div>
+                <h2>Produktname</h2>
+                <p>Kurze Beschreibung des Produkts.</p>
+                <a href="#">Jetzt kaufen</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/100" alt="Produktbild">
+            <div>
+                <h2>Produktname 2</h2>
+                <p>Kurze Beschreibung des Produkts.</p>
+                <a href="#">Jetzt kaufen</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
